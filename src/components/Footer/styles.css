@@ -1,0 +1,9 @@
+.footer {
+    max-width: 100vw;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: rgb(131, 170, 255);
+    font-weight: bold;
+    color: #fff;
+}

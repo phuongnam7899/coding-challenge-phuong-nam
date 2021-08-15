@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.navbar .menu-item {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+}
+.navbar .active {
+    color: rgb(61, 61, 255);
+}

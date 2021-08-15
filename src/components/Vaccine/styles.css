@@ -1,0 +1,96 @@
+.vaccine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Create post */
+.create-post-form {
+    margin-bottom: 2rem;
+}
+.make-post-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: rgb(16, 92, 255);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.make-post-btn:hover {
+   opacity: 0.85;
+   cursor: pointer;
+}
+
+.post-editor {
+    width: 50vw;
+    resize: none;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons button {
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.post-btn {
+    background-color: rgb(16, 92, 255);
+    color: white;
+}
+.post-btn:hover {
+    opacity: 0.85;
+}
+
+
+
+/* Posts */
+.one-post {
+    width: 50vw;
+    box-shadow: 0 0 6px rgb(201, 201, 201);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+.name-and-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-and-time .name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.name-and-time .time {
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.post-content {
+    margin-bottom: 1rem;
+}
+
+.fa-heart:hover {
+    color: rgb(252, 88, 143);
+    cursor: pointer;
+}
